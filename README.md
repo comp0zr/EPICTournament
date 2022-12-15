@@ -10,13 +10,13 @@ Implementation:
 I intended to accomplish my goal as follows:
 Have the user go through a setup process that would involve them sitting with ideal posture in front of a webcam. Using facial recognition, the application would take a series of snapshots of the position and size of their head, which would be used as the basis for determining when and how often they were sitting “improperly”.
 
-Through their work day, the application would run in the background and compare their current position to the basis. Since time was limited, I intended to keep the logic behind this comparison very simple:
+⦁	Through their work day, the application would run in the background and compare their current position to the basis. Since time was limited, I intended to keep the logic behind this comparison very simple:
 
 ⦁	If the top of their head sunk below the basis beyond a certain threshold, the program would determine that they are slouching.
 
 ⦁	If the “size” of their head increased beyond a certain threshold, the program would determine that they had moved too close to the monitor.
 
-Whenever this would happen, a timer would be triggered, and a “violation” would be recorded only if the length of time they remained in this position exceeded a certain number of seconds that could be set by the user.
+⦁	Whenever this would happen, a timer would be triggered, and a “violation” would be recorded only if the length of time they remained in this position exceeded a certain number of seconds that could be set by the user.
 
 This information would be viewable later, or the application could send a push notification to warn the user about it.
 
