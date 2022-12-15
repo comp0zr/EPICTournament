@@ -1,0 +1,3 @@
+from SetupWizard import *
+
+SetupWizard()
